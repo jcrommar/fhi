@@ -88,6 +88,11 @@ nav .fa{
     background: #54724f;
 }
 
+.hero_logo{
+    width: 300px;
+    height: 230px;
+}
+
 
 @media(max-width: 700px)
 {
@@ -116,6 +121,10 @@ nav .fa{
         margin: 10px;
         font-size: 22px;
         cursor: pointer; 
+    }
+    .nav_logo{
+        width: 115px;
+        height: 75px;
     }
     .text-box h1{
         font-size: 20px;
