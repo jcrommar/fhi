@@ -35,13 +35,13 @@ nav img{
 .nav-links ul li a{
     color: #fff;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 15px;
 }
 .nav-links ul li::after{
     content: '';
     width: 0%;
     height: 2px;
-    background: #54724f;
+    background: #ffcc29;
     display: block;
     margin: auto;
     transition: .5s;    
@@ -81,11 +81,12 @@ nav .fa{
     position: relative;
     cursor: pointer;
     transition: 1s;
+    margin-top: 20px;
 }
 
 .hero-btn:hover{
-    border: 1px solid #54724f;
-    background: #54724f;
+    border: 1px solid #ffcc29;
+    background: #ffcc29;
 }
 
 .hero_logo{
@@ -209,7 +210,7 @@ h3{
     transition: .5s;
 }
 .layer:hover{
-    background: rgba(226, 0, 0, 0.7);
+    background: rgba(84, 114, 79, 0.7);
 }
 .layer h3{
     width: 100%;
@@ -341,6 +342,9 @@ h3{
     margin: 0 13px;
     cursor: pointer;
     padding: 18px 0;
+}
+.fa-star{
+    color: #FFCD3C;
 }
 .fa-home{
     color: #54724f;
