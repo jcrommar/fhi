@@ -357,7 +357,7 @@ h3{
 .about-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_us.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/about_us.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -367,7 +367,7 @@ h3{
 .services-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/services_hero.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/services_hero.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -377,7 +377,7 @@ h3{
 .projects-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_us.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/projects_hero.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -387,7 +387,7 @@ h3{
 .contact-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/about_us.jpeg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(images/contact_header.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -577,16 +577,3 @@ h3{
 .phone_contact{
     text-decoration: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
