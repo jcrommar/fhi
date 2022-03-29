@@ -1,0 +1,144 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="services-header">
+        <nav>
+            <a href="index.html"><img src="images/Fence_Home_Improvement-removebg-preview copy.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Services</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.jpg">
+        <h2>Leave a Like, Comment, Review</h2>
+        
+        <p>Visit our Facebook Page <i class="fa fa-facebook fa-lg"></i></p>
+        <br>
+        <p>Visit our Instagram Page <i class="fa fa-Instagram fa-lg"></i></p>
+        <br>
+        <p>Leave us a Review on Google <i class="fa fa-Google fa-lg"></i></p>
+        <br>
+        <!--<p></p>-->
+        
+        <div class="comment-box">
+            <h3>Leave a comment (Coming Soon!)</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Fence & Home Improvement Services</h3>
+            <div>
+                <h4>Fence Repair</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Fence Installation</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Interior Painting</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Exterior Painting</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Cabinet Refacing</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Concrete Services</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Decks</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Patios</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Storage Units</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Windows</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Doors</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Framing</h4>
+                <!--<span>00</span>-->
+            </div>
+            <div>
+                <h4>Carpentry Services</h4>
+                <!--<span>00</span>-->
+            </div>
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>"Fence & Home Improvement | DFW, Texas"</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <a href="index.html"><img class="footer-logo" src="images/Fence_Home_Improvement-removebg-preview copy.png"></a>
+        <p>Fence & Home <i class="fa fa-home"></i> Improvement</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
