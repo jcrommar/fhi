@@ -139,7 +139,7 @@ nav .fa{
 
 /*---------- course --------*/
 
-.course{
+.promise{
     width: 80%;
     margin: auto;
     text-align: center;
@@ -162,7 +162,7 @@ p{
     justify-content: space-between;  
 }
   
-.course-col{
+.promise-col{
     flex-basis: 31%;
     background: #fff3f3;
     border-radius: 10px;
@@ -176,7 +176,7 @@ h3{
     font-weight: 600;
     margin: 10px 0;
 }
-.course-col:hover{
+.promise-col:hover{
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -185,6 +185,11 @@ h3{
         flex-direction: column;
     }
 } 
+
+.promise_icon{
+    width: 90px;
+    height: 90px;
+}
 
 /*---------------- campus ----------------*/
 
@@ -294,7 +299,7 @@ h3{
     text-align: left;
 }
 .testimonial-col .fa{
-    color: #54724f;
+    color: #FFCD3C;
 }
 
 @media(max-width:700px){
