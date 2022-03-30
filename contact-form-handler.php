@@ -1,16 +1,18 @@
 <?php
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
+    $phone = $_POST['phone'];
     $subject = $_POST['subject'];
     $message = $_POST['message'];
 
 
     $email_from = 'info@fenceandhomeimprovement.com';
 
-    $email_subject = "New Form Submission";
+    $email_subject = "New Lead - Fence Home Improvement";
     
     $email_body =   "User Name: $name.\n".
                     "User Email: $visitor_email.\n".
+                    "User Phone: $phone.\n".
                     "Subject: $subject.\n".
                     "User Message: $message.\n";
 
